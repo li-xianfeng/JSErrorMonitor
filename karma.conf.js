@@ -1,7 +1,7 @@
-var webpackCfg = require('./webpack.config');
+var webpackCfg = require('./webpack.config'); 
 
 module.exports = function(config) {
-  config.set({
+  config.set({ 
     basePath: '',
     browsers: [ 'PhantomJS' ],
     files: [
@@ -30,4 +30,4 @@ module.exports = function(config) {
       ]
     }
   });
-};
+}
